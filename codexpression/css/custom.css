@@ -1,0 +1,83 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body{ font-family: sans-serif; }
+
+ #nav-bar { position: sticky; top:0; z-index:
+10; } 
+.navbar { 
+	/*background: #001f3f;*/
+ background:linear-gradient(to right, #063260,
+#001f3f);
+ padding: 0 !important;
+ }
+
+ .navbar-nav li {
+ 	padding: 0 10px;
+ }
+
+ .navbar-nav li a {
+ 	color:#fff !important;
+ 	font-weight: 500;
+ }
+
+ .fa-bars {
+ 	color: #fff ;
+ 	font-size: 30px !important;
+ }
+
+ .navbar-toggler {
+ 	outline: none; 
+ }
+
+ /*styling for the banner section*/
+
+ #banner {
+ 	background: linear-gradient(to right, #063260,
+#001f3f);
+ 	color:#fff;
+ 	padding-top: 5%;
+ }
+
+ .promo-title {
+ 	font-size: xx-large;
+ 	font-weight: 600;
+ 	margin-top:40px;
+ }
+
+ .bottom-img {
+ 	width: 100%;
+ 	box-shadow: none;
+ 	border: none;
+ }
+ .hi{
+ 	height: 700px;
+ }
+
+
+/* Team */
+#team {
+	padding: 20px 0;
+}
+
+ /*Testimonies section*/
+ #recommendation {
+ 	background: linear-gradient(to right, #063260,
+#001f3f);
+ 	color:#fff;
+ }
+
+ /* Projects */
+#projects {
+	padding: 80px 0;
+	color: #001f3f;
+}
+ .project-img img {
+ 	width: 100px;
+ 	display: inline;
+ 	border:2px solid #063260;
+ 	padding: 20px;
+ 	border-radius: 4px;
+ }
